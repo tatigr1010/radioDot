@@ -333,7 +333,7 @@ p {
     }
 }
 
-@media (max-width: 413px) {
+@media (max-width: 460px) {
     .subsection {
         width: 100%;
     }
