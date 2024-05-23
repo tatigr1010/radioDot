@@ -95,7 +95,7 @@ header .logo img {
         text-align: left;
 
         right: 300px;
-        top: 70px;
+        top: 82px;
         display: flex;
     }
 
@@ -112,7 +112,7 @@ header .logo img {
     .coming-soon {
         font-size: 10px;
         left: 220px;
-        top: 70px;
+        top: 82px;
         display: flex;
     }
 
@@ -129,7 +129,7 @@ header .logo img {
     .coming-soon {
         font-size: 10px;
         left: 210px;
-        top: 68px;
+        top: 80px;
         display: flex;
     }
 
@@ -149,7 +149,7 @@ header .logo img {
   }
 
 .hero {
-    padding-bottom: 96px;
+    padding-bottom: 72px;
     max-width: 100%;
 }
 
@@ -158,6 +158,7 @@ header .logo img {
         /* padding: 32px 32px 32px 0px; */
         gap: 32px; 
         padding-bottom: 32px;
+        padding-top: 24px;
     }
 }
 
@@ -179,7 +180,7 @@ header .logo img {
 
 @media (max-width: 768px) {
     .logo {
-        padding: 0 0 12px 0;
+        padding: 0 0 24px 0;
     }
 }
 
@@ -319,12 +320,11 @@ p {
     display: flex;
     align-items: left;
     gap: 8px;
+    
 }
 
-.material-icons {
-    font-size: 24px;
-    color: #000000;
-    font-family: "Roboto Mono", monospace;
+.material-symbols-outlined {
+    color: #1EBED3;
 }
 
 @media (max-width: 1000px) {
@@ -333,7 +333,7 @@ p {
     }
 }
 
-@media (max-width: 390px) {
+@media (max-width: 413px) {
     .subsection {
         width: 100%;
     }
@@ -363,7 +363,7 @@ footer {
       
     }
     .footer-right p {
-        font-size: 14px;
+        font-size: 16px;
     }
 
 
