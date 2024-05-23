@@ -1,0 +1,406 @@
+
+body {
+    display: flex;
+    width:fit-content;
+    padding: 32px 32px 0px 32px;
+    flex-direction: column;
+    align-items:stretch;
+    gap: 48px;
+    background: #FFF7EF;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+@media (max-width: 768px) {
+    body {
+        padding: 32px 32px 0px 32px;
+        gap: 32px; 
+    }
+}
+
+@media (max-width: 390px) {
+    body {
+        padding: 24px 24px 0px 24px;
+        gap: 24px; 
+    }
+}
+
+
+
+header {
+    display: flex;
+    /* height: 100px; */
+    justify-content: space-between;
+    /* align-self: stretch; */
+    width: 100%;
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+
+    flex-direction: row;
+}
+
+
+@media (max-width: 670px) {
+    header {
+        flex-direction: column;
+        /* align-items: stretch; */
+        /* justify-content: left; */
+    }
+}
+
+
+
+.coming-soon {
+    color: #1EBED3;
+    font-family: "Roboto Mono", monospace;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 160%; /* 28.8px */
+    text-align: right;
+    position: absolute;
+    right: 34px;
+    top: 68px;
+}
+
+.coming-soon .lscreen {
+    display: inline-block;
+}
+
+.coming-soon .sscreen {
+    display: none;
+    color: #1EBED3;
+}
+
+@media (max-width: 670px) {
+    .coming-soon {
+        font-size: 14px;
+        text-align: left;
+
+        right: 300px;
+        top: 82px;
+        display: flex;
+    }
+
+    .coming-soon .lscreen {
+        display: none;
+    }
+
+    .coming-soon .sscreen {
+        display: inline-block;
+    }
+}
+
+@media (max-width: 640px) {
+    .coming-soon {
+        font-size: 10px;
+        left: 220px;
+        top: 82px;
+        display: flex;
+    }
+
+    .coming-soon .lscreen {
+        display: none;
+    }
+
+    .coming-soon .sscreen {
+        display: inline-block;
+    }
+}
+
+@media (max-width: 390px) {
+    .coming-soon {
+        font-size: 10px;
+        left: 210px;
+        top: 74px;
+        display: flex;
+    }
+
+    .coming-soon .lscreen {
+        display: none;
+    }
+
+    .coming-soon .sscreen {
+        display: inline-block;
+    }
+}
+
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.hero {
+    padding-bottom: 96px;
+}
+
+@media (max-width: 768px) {
+    .hero {
+        padding: 32px 32px 32px 0px;
+        gap: 32px; 
+    }
+}
+
+@media (max-width: 390px) {
+    .hero {
+        padding: 24px 24px 24px 0px;
+        gap: 24px; 
+    }
+}
+
+
+.logo {
+    /* display: flex; */
+    padding: 0 0 24px  0;
+    justify-content: left;
+    text-align: left;
+    max-width: 90%;
+}
+
+@media (max-width: 768px) {
+    .logo {
+        padding: 0 0 12px 0;
+    }
+}
+
+
+
+
+main {
+    width: 100%;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 32px;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 18px;
+}
+
+
+
+h1 {
+    font-size: 24px;
+    margin: 0 0 16px 0;
+
+
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+
+    max-width: 567px;
+}
+
+@media (max-width: 670px) {
+    h1 {
+        font-size: 18px;
+    }
+}
+
+
+
+h2 {
+    font-size: 20px;
+    margin: 0 0 16px 0;
+
+
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+
+    max-width: 567px;
+}
+
+@media (max-width: 670px) {
+    h2 {
+        font-size: 16px;
+    }
+}
+
+h3 {
+
+color: #000;
+font-family: "Roboto Mono";
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 160%; /* 25.6px */
+}
+
+@media (max-width: 670px) {
+    h3 {
+        font-size: 16px;
+    }
+}
+
+
+p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 0;
+    max-width: 567px;
+}
+
+@media (max-width: 670px) {
+    p {
+        font-size: 16px;
+    }
+}
+
+
+.icon-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    padding-bottom: 48px;
+}
+
+@media (max-width: 670px) {
+    .icon-section {
+        padding-bottom: 24px;
+      
+    }
+
+    }
+
+    @media (max-width: 390px) {
+        .icon-section {
+            padding-bottom: 16px;
+          
+        }
+    
+        }
+
+
+.subsection {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    text-align: left;
+    width: calc(25% - 24px); /* Adjust 16px for spacing */
+    margin: 8px;
+}
+
+.icon-text {
+    display: flex;
+    align-items: left;
+    gap: 8px;
+}
+
+.material-icons {
+    font-size: 24px;
+    color: #000000;
+    font-family: "Roboto Mono", monospace;
+}
+
+@media (max-width: 1000px) {
+    .subsection {
+        width: calc(50% - 16px);
+    }
+}
+
+@media (max-width: 390px) {
+    .subsection {
+        width: 100%;
+    }
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items:start;
+    width: 100%;
+    background: #FFECE3;
+    box-sizing: border-box;
+    padding: 32px;
+
+    font-family: "Roboto Mono", monospace;
+    /* font-optical-sizing: auto; */
+    font-weight: 400;
+    font-style: normal;
+    
+}
+
+@media (max-width: 670px) {
+    footer {
+        flex-direction: column;
+        align-items: stretch;
+        padding: 24px;
+      
+    }
+    .footer-right p {
+        font-size: 14px;
+    }
+
+
+}
+
+
+.footer-left {
+    display: flex;
+    align-items: top;
+    gap: 8px;
+    
+}
+
+.footer p {
+    margin: 0;
+    font-size: 18px;
+    line-height: 1.5;
+    align-items: center;
+
+
+}
+
+.footer-right {
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    }
+
+
+/* .footer-right h3 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: normal;
+    text-align: right;
+} */
+
+.footer-right p {
+    /* margin: 4px 0; */
+    /* font-size: 18px; */
+    display: flex;
+    /* flex-direction: row-reverse; */
+    gap: 4px;
+}
+
+.footer-right .material-icons {
+    font-size: 12px;
+    color: #000000;
+}
+
+.contact-info {
+display: flex;
+justify-content: flex-end;
+}
+
+
